@@ -1,0 +1,134 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common styles and ultilities */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+}
+
+/* main section */
+/* Title section  */
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 125px;
+    margin-top: 90px;
+}
+h3.web-title{
+    font-size: 25px;
+}
+.nav-menu{
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+}
+.nav-menu li a{
+   text-decoration: none; 
+   color: #111111;
+    
+}
+
+/* banner section  */
+.banner{
+    display: flex;
+    padding: 0 125px;
+    gap: 0 70px;
+    margin-top: 25px;
+    margin-bottom: 125px;
+}
+.banner-title{
+    font-size: 54px;
+}
+.banner-button{
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    background-color:deeppink ;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+.banner-img{
+    border: 90px;
+    border-style: none;
+    background-image: url(../images/Circle\ design.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.brands{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 150px;
+    margin-bottom: 10px;
+    border-top: solid 1px lightgray;
+    border-bottom: solid 1px lightgray;
+}
+
+/* products section  */
+.products{
+    display: grid;
+    justify-content: center;
+    color: #111111 ;    
+}
+
+.product-list{
+    gap: 5px 20px;
+    display: grid ;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.product{
+    background-color: white;
+    padding: 20px;
+    margin: 5px 5px;
+    border: 10px gray;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px #d3d3d3;
+}
+
+.products-title{
+    margin-top: 70px;
+    font-size: 32px;
+}
+
+.product-name {
+    margin-top: 15px;
+    font-size: 28px;
+}
+
+.product-price{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.product-info{
+    font-weight: 100;
+    color: gray;
+}
+
+/* Last Section before Footer  */
+ .join{
+    display: flex;
+    padding: 0 240px;
+    gap: 50px;
+    margin-top: 120px ;
+    margin-bottom: 120px;
+ }
+
+ .f-title{
+    font-size: 38px;
+    font-weight: 700;
+ }
+
+ .f-button{
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    background-color:deeppink ;
+    color: white;
+    padding: 10px 25px;
+    
+ }
