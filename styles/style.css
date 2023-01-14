@@ -118,12 +118,12 @@ h3.web-title{
     margin-bottom: 120px;
  }
 
- .f-title{
+ .n-title{
     font-size: 38px;
     font-weight: 700;
  }
 
- .f-button{
+ .n-button{
     border: none;
     font-size: 18px;
     font-weight: 600;
@@ -131,4 +131,20 @@ h3.web-title{
     color: white;
     padding: 10px 25px;
     
+ }
+
+ /* footer  */
+ .footer{
+    color: white;
+    background-color: #0a0826;
+    text-align: center;
+    padding: 50px 0;
+    width: 100%;
+ }
+
+ .socials{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    gap: 10px;
  }
